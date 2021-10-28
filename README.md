@@ -9,7 +9,7 @@ The goals of this session are to (1) understand what an API is, (2) show you how
 
 # Instructors
 Christine Cepelak ([website](https://christinecepelak.com/), [twitter](https://twitter.com/CLcep))  
-Dominik Cramer ([website](), [twitter]())
+Dominik Cramer
 
 # Further resources
 [API Basics by IBM](https://www.ibm.com/cloud/learn/api)   
