@@ -1,0 +1,31 @@
+---
+title: "Connecting-to-webAPIs"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(httr)
+library(jsonlite)
+
+library(anytime)
+```
+
+```{r}
+# ask for data
+res = GET("http://api.open-notify.org/iss-pass.json",
+    query = list(lat = 52.5, lon = 13.4))
+
+# check out response
+res
+http_status(res)
+data = fromJSON(rawToChar(res$content))
+data$response
+
+# compute time
+data$response$risetime[1]
+anytime(data$response$risetime[1])
+```
