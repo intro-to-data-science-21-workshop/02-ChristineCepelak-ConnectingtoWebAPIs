@@ -8,18 +8,18 @@ This session will introduce you to gathering data via APIs (Application Programm
 The goals of this session are to (1) understand what an API is, (2) show you how to connect and query one, and (3) give you examples of valuable APIs and further reading.
 
 # Instructors
-Christine Cepelak ([website] (https://christinecepelak.com/), [twitter] (https://twitter.com/CLcep))
+Christine Cepelak ([website](https://christinecepelak.com/), [twitter](https://twitter.com/CLcep))
 Dominik Cramer ([website](), [twitter]())
 
 # Further resources
-[API Basics by IBM] (https://www.ibm.com/cloud/learn/api) 
-[APIs for Beginngers by FreeCodeCamp on YouTube] (https://youtu.be/GZvSYJDk-us) 
+[API Basics by IBM](https://www.ibm.com/cloud/learn/api) 
+[APIs for Beginngers by FreeCodeCamp on YouTube](https://youtu.be/GZvSYJDk-us) 
 [Working with APIs for Data Science by Dataquest](https://www.dataquest.io/m/52-working-with-apis/)
 
-# Popular Web APIs
-[Google Maps] (https://developers.google.com/maps/apis-by-platform) 
-[Google Analytics] (https://developers.google.com/analytics/devguides/reporting/core/v4) 
-[Twitter] (https://developer.twitter.com/en/docs/twitter-api) 
+# Popular APIs
+[Google Maps](https://developers.google.com/maps/apis-by-platform) 
+[Google Analytics](https://developers.google.com/analytics/devguides/reporting/core/v4) 
+[Twitter](https://developer.twitter.com/en/docs/twitter-api) 
 
 # License
 The material in this repository is made available under the MIT license.
