@@ -8,7 +8,7 @@ This session will introduce you to gathering data via APIs (Application Programm
 The goals of this session are to (1) understand what an API is, (2) show you how to connect and query one, and (3) give you examples of valuable APIs and further reading.
 
 # Instructors
-Christine Cepelak ([website](https://christinecepelak.com/), [twitter](https://twitter.com/CLcep))  
+Christine Cepelak ([twitter](https://twitter.com/CLcep))  
 Dominik Cramer
 
 # Further resources
@@ -25,5 +25,5 @@ Dominik Cramer
 The material in this repository is made available under the MIT license.
 
 # Statement of contributions
-Christine Cepelak prepared .  
+Christine Cepelak prepared updated the RREADME, created the slides, and recorded the presentation.  
 Dominik Cramer prepared .
