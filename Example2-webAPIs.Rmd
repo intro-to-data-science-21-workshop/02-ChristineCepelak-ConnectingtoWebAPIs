@@ -1,0 +1,51 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(httr)
+library(jsonlite)
+
+library(ggmap)
+```
+
+```{r}
+# API Key
+
+# 1 get API Key
+api <- "AIzaSyDDYCpiSuiLczF-JJ7bwiWbtwNyK88YSSM"
+
+# 2 register key
+register_google(key = api)
+```
+
+```{r}
+# Generate Map
+
+# Save map for Berlin
+blnmap <- get_map("Berlin", zoom = 11)
+
+# Visualize map
+ggmap(blnmap)
+
+# this way, we can basically get any map we want
+ggmap(get_map("India", zoom = 5))
+```
+
+```{r}
+# Layer Points on Map
+
+# Create a data point
+HertieSchool <- data.frame(lat = 52.5, lon = 13.4)
+
+# Layer the data point on top of the map
+ggmap(blnmap) +
+  geom_point(data = HertieSchool, aes(x = lon, y = lat), colour = "red", size = 3) +
+  labs(title = "Hertie School of Governance")
+```
+
