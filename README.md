@@ -25,5 +25,5 @@ Dominik Cramer
 The material in this repository is made available under the MIT license.
 
 # Statement of contributions
-Christine Cepelak prepared updated the RREADME, created the slides, and recorded the presentation.  
-Dominik Cramer prepared .
+Christine Cepelak updated the README, created the slides, and recorded the presentation.  
+Dominik Cramer prepared the examples.
